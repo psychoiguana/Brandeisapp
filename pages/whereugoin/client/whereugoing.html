@@ -1,3 +1,29 @@
+<!--we will take this out of the menu bar and redirect people to this when setting up a packing list-->
+
 <template name="whereugoin">
-	<h1>where are you going</h1>
+	<h1>Where are you going?</h1>
+<br>
+<br>
+<br>
+	<ul>
+		Destination:
+		<input type="text" class="form-control" placeholder="Ex. California">
+		<br>
+		<form>
+ 	 When are you leaving?:
+  	<input type="date" name="bday">
+	</form>	
+	<form>
+	When are you coming back?:
+  	<input type="date" name="bday">
+	</form>
+	<form>
+  How many people?:
+  <input type="number" name="How many people" min="0">
+</form>
+What type of trip?
+<input type="text" class="form-control" placeholder="Ex. Ski trip, Beach get-away, ect.">
+<button type="button" class="btn btn-success btn-lg">Success</button>
+
+	</ul>
 </template>
